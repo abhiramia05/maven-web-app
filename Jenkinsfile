@@ -3,7 +3,7 @@ pipeline {
     agent any
         
     tools{
-        maven "Maven-3.9.9"
+        maven "maven"
     }
     stages {
         stage('Clone') {
